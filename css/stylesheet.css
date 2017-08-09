@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    text-transform: lowercase;
+    color: white;
+    /*background-color: #133c55;*/
+    background-color: #d0fef5;
+}
+
+.container {
+    position: relative;
+    top: 30%;
+}
+
+.box {
+    text-align: center;
+    width: 100%;
+    height: 24%;
+    padding: 10px; 
+    max-height: auto;
+    margin: auto;
+    /*border: 3px solid black;
+    /*position: relative;*/
+    float: left;
+}
+
+#work {
+    /*background: #386fa4;*/
+    background-color: fab2ea;
+}
+#utility {
+    /*background-color: #59a5d8;*/
+    background-color: #90e0f3;
+}
+#social {
+    /*background-color: #84d2f6;*/
+    background-color: #71b9fc;
+}
+#manga {
+    /*background-color: #91e5f6 ;*/
+    background-color: #ffa69e;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content="";
+    clear: both;
+    display: table;
+}
