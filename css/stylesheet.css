@@ -1,83 +1,99 @@
-* {
-    box-sizing: border-box;
-}
+/*
+ * Church of Futaba
+ *
+ * Color Scheme: 
+ * Rosy: #C48C89
+ * Brown: #BCA28D
+ * Gray: #797078
+ * Dark Sea Green: #8B9B8B
+ * White: #FBFBFB
+ */
 
 body {
-    font-family: Helvetica;
-    text-transform: lowercase;
-    color: white;
-    /*background-color: #133c55;*/
-    background-color: #d0fef5;
-}
-
-.container {
-    position: relative;
-    top: 30%;
-}
-
-.box {
-    text-align: center;
     width: 100%;
-    height: 24%;
+    height: 100%;
+    background: url('../assets/bg.png') fixed center / cover;
+}
+
+
+.top {
+    top: 25%;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    border: solid #C48C89 2px; /* Rosy border color */
+    background-color: #C48C89;
+    border-radius: 25px;
+    max-width: 75%;
+}
+
+.time-container {
+    color: #FBFBFB;
+}
+
+#time {
+    font-size: 50px;
+}
+
+.search {
+    padding: 10px 0px 10px 0px ;
+}
+
+input:focus {
+    outline: none;
+}
+
+.functionals {
+    top: 30%; 
+    text-align: left;
+    position: relative;
     padding: 10px; 
-    max-height: auto;
-    margin: auto;
-    /*border: 3px solid black;
-    /*position: relative;*/
-    float: left;
+    border: solid #C48C89 2px; /* Rosy border color */
+    background-color: #C48C89;
+    border-radius: 25px;
+    color: #FBFBFB;
+    max-width: 75%;
+    height: 250px;
 }
 
-#work {
-    /*background: #386fa4;*/
-    background-color: fab2ea;
-}
-#utility {
-    /*background-color: #59a5d8;*/
-    background-color: #90e0f3;
-}
-#social {
-    /*background-color: #84d2f6;*/
-    background-color: #71b9fc;
-}
-#manga {
-    /*background-color: #91e5f6 ;*/
-    background-color: #ffa69e;
+.carousel-indicators {
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    width: auto;
+    height: 10px;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.menu {
+    text-align: center;
+    padding-top: 40px;
+}
 
+.menu ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+a {
+    display: block;
+}
 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    background-color: #8B9B8B;
+    color: #FBFBFB;
     text-decoration: none;
 }
 
 a:active {
     text-decoration: none;
-}
-
-.clearfix::after {
-    content="";
-    clear: both;
-    display: table;
 }
